@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+.app {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+
+.sidebar {
+  width: 30%;
+  background-color: #ffffff;
+  border-right: 1px solid #ddd;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.sidebar h3 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.sidebar ul li div {
+  text-decoration: none;
+  color: #1a73e8;
+  cursor: pointer;
+}
+
+.sidebar ul li button {
+  background: none;
+  color: #ff6b6b;
+  cursor: pointer;
+  /* margin-top: 5px; */
+  font-size: 16px;
+  width: 10px;
+  height: 10px;
+  outline: none;
+  border: none;
+}
+
+.main {
+  width: 100%;
+  padding: 40px;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.main h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.main-input {
+  display: flex;
+  width: 50%;
+  margin: 10px 50px 20px 0;
+}
+
+.main input {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  margin-bottom: 20px 20px;
+  border: 1px solid #ddd;
+  background-color: inherit;
+  color: #333;
+  font-size: 20px;
+}
+
+.main select {
+  padding: 10px;
+  border: 1px solid #ddd;
+  background-color: inherit;
+  color: #333;
+  margin-left: 20px;
+  width: 250px;
+  font-size: 20px;
+}
+
+.main button {
+  background-color: #92278F;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 0px;
+  cursor: pointer;
+  width: 150px;
+}
+
+.main button:hover {
+  background-color: #92278F;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+  img {
+    max-width: 500px;
+    max-height: 500px;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  }
+
+  a {
+    border: none;
+  }
+}
+
+.error-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ffffff;
+}
